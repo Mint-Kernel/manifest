@@ -8,18 +8,6 @@
   
    
     
-      
-        <project remote="generated" name="kernel/build.git" path="kernel_platform/build" revision="56594101567799238a9947ac5bc006e1b0d8595a" upstream="refs/heads/kernel.lnx.5.10.r1-rel" />
-      
-    
-   
-    
-      
-        <project remote="generated" name="kernel/common.git" path="kernel_platform/common" revision="53e2fa2a7ba0ae2d2f46a4776633604029e2011f" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" groups="qki" />
-      
-    
-   
-    
          
         <project remote="generated" name="kernel/msm-5.10.git" path="kernel_platform/msm-kernel" revision="756adf813c02cd44307378a8d05cd78472863e06" upstream="refs/heads/kernel.lnx.5.10.r1-rel" >
       
@@ -34,6 +22,18 @@
         
       
         </project>
+    
+   
+    
+      
+        <project remote="generated" name="kernel/build.git" path="kernel_platform/build" revision="56594101567799238a9947ac5bc006e1b0d8595a" upstream="refs/heads/kernel.lnx.5.10.r1-rel" />
+      
+    
+   
+    
+      
+        <project remote="generated" name="kernel/common.git" path="kernel_platform/common" revision="53e2fa2a7ba0ae2d2f46a4776633604029e2011f" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" groups="qki" />
+      
     
    
     
