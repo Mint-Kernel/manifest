@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
-  <default revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="clo-la" name="kernel/build" path="kernel_platform/build" revision="77433b6b23f276379116d6c2f52bc65c1047ea2c" upstream="refs/heads/kernel.lnx.5.10.r2-rel"/>
   <project remote="clo-la" name="kernel/common" path="kernel_platform/common" revision="69fbebd51192f0439a696ad8a34b0c3a5b1c693e" upstream="refs/heads/ks-kernel.lnx.1.0.r2-rel" groups="qki"/>
   <project remote="clo-la" name="kernel/msm-5.10" path="kernel_platform/msm-kernel" revision="e04c5a3ee29099172005c78f6eeb8d7896e40b89" upstream="refs/heads/kernel.lnx.5.10.r2-rel">
