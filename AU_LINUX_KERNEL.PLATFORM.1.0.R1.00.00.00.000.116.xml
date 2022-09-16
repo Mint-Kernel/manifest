@@ -2,13 +2,13 @@
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
-  <project remote="clo-la" name="kernel/build" path="kernel_platform/build" revision="56594101567799238a9947ac5bc006e1b0d8595a" upstream="refs/heads/kernel.lnx.5.10.r1-rel"/>
-  <project remote="clo-la" name="kernel/common" path="kernel_platform/common" revision="a678dd7d768a592d4f94a55759a47af588158701" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" groups="qki"/>
   <project remote="clo-la" name="kernel/msm-5.10" path="kernel_platform/msm-kernel" revision="a32f7419ffac88297fd7e7a80811274adc9da3fc" upstream="refs/heads/kernel.lnx.5.10.r1-rel">
     <linkfile dest="kernel_platform/common/build.config.msm.waipio" src="build.config.msm.waipio"/>
     <linkfile dest="kernel_platform/common/build.config.msm.waipio.tuivm" src="build.config.msm.waipio.tuivm"/>
     <linkfile dest="kernel_platform/common/build.config.msm.lahaina" src="build.config.msm.lahaina"/>
   </project>
+  <project remote="clo-la" name="kernel/build" path="kernel_platform/build" revision="56594101567799238a9947ac5bc006e1b0d8595a" upstream="refs/heads/kernel.lnx.5.10.r1-rel"/>
+  <project remote="clo-la" name="kernel/common" path="kernel_platform/common" revision="a678dd7d768a592d4f94a55759a47af588158701" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" groups="qki"/>
   <project remote="clo-la" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="10ab783184f77d3ea15bf666426a7138b0f62bfc" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel"/>
   <project remote="clo-la" name="kernel_platform/external/dtc" path="kernel_platform/external/dtc" revision="deb932d81061c472e8bb2648a409a456e6e84997" upstream="refs/heads/kernel.build.lnx.1.0.r1-rel"/>
   <project remote="clo-la" name="kernel_platform/kernel/prebuilts/mainline/arm64" path="kernel_platform/kernel/prebuilts/mainline/arm64" revision="de12e10cfe8d67d5c0627069306fda939f52154a" upstream="refs/heads/kernel.lnx.5.10.r1-rel"/>
