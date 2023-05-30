@@ -3,8 +3,8 @@
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
   <default remote="clo" revision="kernel.build.lnx.1.0" sync-j="8"/>
   <project name="kernel/build" path="kernel_platform/build" revision="e7ebf27ce7d615f883bc8a7b764da41d8c4fc4b6" upstream="refs/heads/kernel.lnx.5.10.r2-rel"/>
-  <project groups="qki" name="kernel/common" path="kernel_platform/common" revision="e0cf0fbb10143f9f0205843a0e798891ed9b7c6a" upstream="refs/heads/ks-kernel.lnx.1.0.r2-rel"/>
-  <project name="kernel/msm-5.10" path="kernel_platform/msm-kernel" revision="160e68528579d574b29d7b270b40062abb4d601d" upstream="refs/heads/kernel.lnx.5.10.r2-rel">
+  <project groups="qki" name="kernel/common" path="kernel_platform/common" revision="f33f32b766bf10a6d29466fe9afda9452d9c315f" upstream="refs/heads/ks-kernel.lnx.1.0.r2-rel"/>
+  <project name="kernel/msm-5.10" path="kernel_platform/msm-kernel" revision="4936b247dce5cadbcda9b86205414fe9862feb46" upstream="refs/heads/kernel.lnx.5.10.r2-rel">
     <linkfile dest="kernel_platform/common/build.config.msm.waipio" src="build.config.msm.waipio"/>
     <linkfile dest="kernel_platform/common/build.config.msm.waipio.tuivm" src="build.config.msm.waipio.tuivm"/>
     <linkfile dest="kernel_platform/common/build.config.msm.lahaina" src="build.config.msm.lahaina"/>
